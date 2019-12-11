@@ -18,7 +18,6 @@ import org.hibernate.Transaction;
  *
  * @author root
  */
-
 public class GenericDao<X> implements IGenericDao<X>{
 
     public void create(X x){
